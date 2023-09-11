@@ -101,9 +101,10 @@ section.segmentos > h1 {
     height: 100%;
 }
 
-#inf > h1  {
+#inf > a  {
+    font-weight: bold;
     padding: 30px;
-    background-color: rgba(255, 255, 0, 0.697);
+    background-color: yellow;
     width: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -111,9 +112,14 @@ section.segmentos > h1 {
     color: white;
     font-size: 2em;
     text-shadow: 2px 1px lightgray;
+    cursor: pointer;
 }
 
-#fund1-2 > h1 {
+#inf > a:hover {
+    background-color: rgb(231, 231, 98);;
+}
+
+#fund1-2 > a {
     padding: 30px;
     background-color: orange;
     width: 250px;
@@ -123,9 +129,14 @@ section.segmentos > h1 {
     color: white;
     font-size: 2em;
     text-shadow: 2px 1px lightgray;
+    cursor: pointer;
 }
 
-#medio > h1 {
+#fund1-2 > a:hover {
+    background-color: rgb(213, 153, 41);
+}
+
+#medio > a {
     padding: 30px;
     background-color: red;
     width: 250px;
@@ -135,6 +146,11 @@ section.segmentos > h1 {
     color: white;
     font-size: 2em;
     text-shadow: 2px 1px lightgray;
+    cursor: pointer;
+}
+
+#medio > a:hover {
+    background-color: rgb(136, 44, 44);
 }
 
 .proposta-pedagogica {
@@ -185,6 +201,35 @@ section.segmentos > h1 {
     font-size: 1em;
     padding: 10px
     
+}
+
+footer {
+    background-color: #840001;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer > legend {
+    margin-bottom: 15px;
+}
+footer > p {
+    
+}
+
+footer > h4 {
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: yellow;
 }
 
 
