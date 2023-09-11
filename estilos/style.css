@@ -103,7 +103,7 @@ section.segmentos > h1 {
 
 #inf > h1  {
     padding: 30px;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.697);
     width: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
