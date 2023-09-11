@@ -64,46 +64,150 @@ nav ul li a {
     padding: 5px;
 }
 
-.sobre-nos {
-    background-color: #fff;
+section.segmentos {
+   background-color: rgba(244, 239, 239, 0.79);
+   padding: 10px;
+   margin-bottom: 10px;
 }
 
-div.segmentos {
-    border-radius: 8px;
-    border: 1px solid yellow;
-    margin: 20px 5px;
-    box-shadow: 0px 1px 3px 1px rgba(119, 117, 117, 0.807);
+section.segmentos > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #840001;
+    font-weight: bold;
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+.seg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+#inf > h1  {
+    padding: 30px;
+    background-color: yellow;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 3px 1px lightgray;
+    color: white;
+}
+
+#fund1-2 > h1 {
+    padding: 30px;
+    background-color: orange;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 3px 1px lightgray;
+    color: white;
+}
+
+#medio > h1 {
+    padding: 30px;
+    background-color: red;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 3px 1px lightgray;
+    color: white;
+}
+
+.proposta-ped {
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagens/pexels-olia-danilevich-5088188.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.proposta-pedagogica {
+   background-color: rgba(255, 255, 255, 0.515);
+   height: 600px;
     
 }
 
-div.segmentos > h1 {
+.proposta-pedagogica > h1 {
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
     color: #840001;
-    text-align: left;
+    border: 1px solid lightgray;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 1px rgb(114, 112, 112);
 }
 
-div.segmentos > p {
+.proposta-pedagogica > h2 {
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: orange;
+}
+
+.proposta-pedagogica > p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 5px;
     text-align: justify;
-    text-indent: 30px;
+    text-indent: 20px;
+    margin-bottom: 20px;
 }
 
-div.botao-saiba-mais {
-    text-align: center;   
+div.img-01 {
+    
+}
+
+.contato {
+    background-color: rgba(244, 239, 239, 0.79); ;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px
+    
+}
+
+#insta > a {
+    font-weight: bold;
+    background-color: pink;
+    text-decoration: none;
+    color: #840001;
     padding: 10px;
+    border-radius: 8px;
 }
 
-div.botao-saiba-mais > a {
-    border-radius: 10px;
-    padding: 8px;
+#face > a {
+    font-weight: bold;
+    background-color: blue;
     text-decoration: none;
     color: white;
-    background-color: #840001;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#whats > a {
     font-weight: bold;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 10px ;
+    border-radius: 8px;
 }
 
-div.botao-saiba-mais > a:hover {
-    background-color: #be6666;
+footer {
+    text-align: center;
 }
-
 
