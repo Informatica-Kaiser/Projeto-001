@@ -73,7 +73,9 @@ nav ul li a {
 section.segmentos {
    background-color: rgba(244, 239, 239, 0.79);
    padding: 10px;
+   margin-top: 10px;
    margin-bottom: 50px;
+   border-radius: 10%;
 }
 
 section.segmentos > h1 {
@@ -139,6 +141,7 @@ section.segmentos > h1 {
     font-weight: bold;
     font-size: 3em;
     color: #840001;
+    text-shadow: 1px 2px 1px rgb(169, 162, 162);
 }
 
 .proposta-pedagogica > h2 {
