@@ -1,11 +1,47 @@
 @charset "UTF-8";
 
 /* PARA TABLETS */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    
+@media screen and (min-width:768px) and (max-width: 992px) {
+    nav ul li {
+        display: inline-block;
+        font-size: 1.3em;
+        cursor: pointer;
+        
+    }
+
+    nav ul li:hover {
+        background-color: orange;
+        border-radius: 10px;
+        padding: 7px;
+    }
+
+    .conteudo-centro {
+        font-size: 1.8em;
+    }
 }
 
 /* PARA TELAS MAIORES */
-@media screen and (min-width:992px)  {
-    
+@media screen and (min-width:992px) {
+    main {
+        margin: auto;
+        width: 1000px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        font-size: 1.3em;
+        cursor: pointer;
+        
+    }
+
+    nav ul li:hover {
+        background-color: orange;
+        border-radius: 10px;
+        padding: 7px;
+    }
+
+    .conteudo-centro {
+        font-size: 1.8em;
+    }
+
 }

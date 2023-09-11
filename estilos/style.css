@@ -22,7 +22,7 @@ header {
     background-color: #fff;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
-    box-shadow: 0px 0px 3px 1px rgb(131, 127, 127);
+    
 }
 
 nav ul {
@@ -78,7 +78,7 @@ nav ul li a {
 }
 
 section.segmentos {
-   background-color: rgba(244, 239, 239, 0.79);
+   background-color: rgba(244, 239, 239, 0.573);
    padding: 10px;
    margin: 30px 10px;
    border-radius: 10%;
@@ -162,7 +162,7 @@ section.segmentos > h1 {
     height: 100%;
     border: 1px solid lightgray;
     border-radius: 8px;
-    box-shadow: 1px 1px 2px 1px rgb(114, 112, 112);
+    box-shadow: 1px 1px 2px 1px rgb(178, 174, 174);
 }
 
 .proposta-pedagogica > h1 {
@@ -230,6 +230,11 @@ footer a {
 
 footer a:hover {
     color: yellow;
+}
+
+.inline-footer {
+    display: inline-block;
+    padding: 10px;
 }
 
 .inline-social {
