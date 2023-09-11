@@ -71,7 +71,10 @@ nav ul li a {
 }
 
 .conteudo-centro > p {
-    font-weight: bold;
+    font-variant: small-caps;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 1.5em;
 }
 
 section.segmentos {
@@ -213,9 +216,6 @@ footer {
 footer > legend {
     margin-bottom: 15px;
 }
-footer > p {
-    
-}
 
 footer > h4 {
     padding: 10px;
@@ -235,6 +235,10 @@ footer a:hover {
 .inline-social {
     display: inline-block;
     padding: 10px;
+}
+
+.inline-social > h4 {
+    padding: 5px;
 }
 
 
