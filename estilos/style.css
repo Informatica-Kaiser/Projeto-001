@@ -165,21 +165,13 @@ section.segmentos > h1 {
     box-shadow: 1px 1px 2px 1px rgb(178, 174, 174);
 }
 
-.proposta-pedagogica > h1 {
-    font-family: 'Alfa Slab One', cursive;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 3em;
-    color: var(--cor01);
-}
-
 .proposta-pedagogica > h2 {
     padding: 10px;
     text-align: center;
     font-weight: bold;
     font-size: 2.5em;
     color: orange;
+    font-variant: small-caps;
 }
 
 .proposta-pedagogica > p {
@@ -188,7 +180,7 @@ section.segmentos > h1 {
     padding: 5px;
     text-align: justify;
     text-indent: 20px;
-    margin-bottom: 20px;
+    margin: 20px
 }
 
 .contato {
