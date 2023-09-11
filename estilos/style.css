@@ -41,6 +41,9 @@ nav ul li a {
 .inicio {
     width: 100%;
     height: 800px;
+    background-image: url(../imagens/WhatsApp\ Image\ 2023-08-30\ at\ 09.23.55.jpeg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .conteudo-centro {
@@ -51,17 +54,20 @@ nav ul li a {
     text-align: center;
     height: 100%;
     box-shadow: 0px 1px 3px 1px rgb(243, 238, 238);
+
+    background-color: rgba(255, 255, 255, 0.495);
 }
 
 .conteudo-centro > h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-variant: small-caps;
     padding: 5px;
-    text-shadow: 1px 1px rgb(157, 152, 152);
+    text-shadow: 1px 2px rgb(157, 152, 152);
+    color: #840001;
 }
 
 .conteudo-centro > p {
-    padding: 5px;
+    font-weight: bold;
 }
 
 section.segmentos {
@@ -118,14 +124,6 @@ section.segmentos > h1 {
     color: white;
 }
 
-.proposta-ped {
-    width: 100%;
-    height: 600px;
-    background-image: url(../imagens/pexels-olia-danilevich-5088188.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .proposta-pedagogica {
    background-color: rgba(255, 255, 255, 0.515);
    height: 600px;
@@ -161,10 +159,6 @@ section.segmentos > h1 {
     margin-bottom: 20px;
 }
 
-div.img-01 {
-    
-}
-
 .contato {
     background-color: rgba(244, 239, 239, 0.79); ;
 }
@@ -180,34 +174,4 @@ div.img-01 {
     
 }
 
-#insta > a {
-    font-weight: bold;
-    background-color: pink;
-    text-decoration: none;
-    color: #840001;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-#face > a {
-    font-weight: bold;
-    background-color: blue;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-#whats > a {
-    font-weight: bold;
-    background-color: green;
-    text-decoration: none;
-    color: white;
-    padding: 10px ;
-    border-radius: 8px;
-}
-
-footer {
-    text-align: center;
-}
 
