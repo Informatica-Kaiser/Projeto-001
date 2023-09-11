@@ -73,7 +73,7 @@ nav ul li a {
 section.segmentos {
    background-color: rgba(244, 239, 239, 0.79);
    padding: 10px;
-   margin-bottom: 10px;
+   margin-bottom: 50px;
 }
 
 section.segmentos > h1 {
@@ -125,9 +125,12 @@ section.segmentos > h1 {
 }
 
 .proposta-pedagogica {
-   background-color: rgba(255, 255, 255, 0.515);
-   height: 600px;
-    
+    margin: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.515);
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 1px rgb(114, 112, 112);
 }
 
 .proposta-pedagogica > h1 {
@@ -136,10 +139,6 @@ section.segmentos > h1 {
     font-weight: bold;
     font-size: 3em;
     color: #840001;
-    border: 1px solid lightgray;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 1px 1px 2px 1px rgb(114, 112, 112);
 }
 
 .proposta-pedagogica > h2 {
@@ -153,7 +152,7 @@ section.segmentos > h1 {
 .proposta-pedagogica > p {
     font-size: 1.2em;
     line-height: 1.5em;
-    padding: 15px;
+    padding: 5px;
     text-align: justify;
     text-indent: 20px;
     margin-bottom: 20px;
