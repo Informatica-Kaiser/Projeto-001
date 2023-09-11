@@ -105,7 +105,7 @@ section.segmentos > h1 {
     font-weight: bold;
     padding: 30px;
     background-color: yellow;
-    width: 250px;
+    width: 60%;
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 2px 3px 1px lightgray;
@@ -122,7 +122,7 @@ section.segmentos > h1 {
 #fund1-2 > a {
     padding: 30px;
     background-color: orange;
-    width: 250px;
+    width: 60%;
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 2px 3px 1px lightgray;
@@ -139,7 +139,7 @@ section.segmentos > h1 {
 #medio > a {
     padding: 30px;
     background-color: red;
-    width: 250px;
+    width: 60%;
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 2px 3px 1px lightgray;
@@ -230,6 +230,11 @@ footer a {
 
 footer a:hover {
     color: yellow;
+}
+
+.inline-social {
+    display: inline-block;
+    padding: 10px;
 }
 
 
