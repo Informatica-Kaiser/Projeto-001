@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/* cabeçalho */
+
+:root {
+    --primary: red;
+    --secondary: yellow;
+    --tertiary:orange;
+
+    --text-color: red;
+    --text-secondary: rgba(150, 145, 145, 0.86);
+    --text-tertiary: #fff;
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#description {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imagens/banner.jpg);
+    background-size: cover;
+    background-position: center left;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+#banner {
+    padding: 2em;
+}
+
+#banner h2 {
+    text-align: center;
+    color: var(--text-tertiary);
+    margin-bottom: .5em ;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#banner p {
+    text-align: center;
+    color: var(--tertiary);
+    margin-bottom: .5em;
+}
+
+#banner .exc {
+    font-weight: bold;
+}
+
+/* Segmentos da escola */
+
+#detalhes h2 {
+    background-color: var(--text-secondary);
+    text-align: center;
+    font-weight: 700;
+    padding: 1.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.segmentos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.segmento {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+
+.segmento .seg-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+    box-shadow: 1px 2px 3px 2px lightgray;
+}
+
+#seg-1 {
+    background-image: url(../imagens/infantil.jpg);
+}
+
+#seg-2 {
+    background-image: url(../imagens/fund.jpg);
+}
+
+#seg-3 {
+    background-image: url(../imagens/medio.jpg);
+}
+
+.segmento h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: rgb(62, 61, 61)   ;
+    font-weight: 760;
+}
+
+/* local */
+
+#local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imagens/banner-02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 3em;
+}
+
+#address {
+    display: flex;
+}
+
+#address-details {
+    text-align: center;
+}
+
+#address-details h2 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+#address-details i {
+    color: var(--tertiary);
+    font-size: 3em;
+}
+
+#address-details p {
+    color: white
+}
+
+
+/* Beneficios */
+
+#beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    
+}
+
+#about-ben {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#beneficio {
+    margin-bottom: 1.5em;
+}
+
+#beneficio h2 {
+    text-transform: uppercase;
+    padding: 1.5em;
+    font-size: 2em;
+}
+
+#beneficio i {
+    font-size: 3em;
+    color: orange;
+}
+
+.ben {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px darkgray;
+}
+
+#ben1 h3 {
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+    color: darkgray;
+    text-transform: uppercase;
+    padding: 0 2em;
+}
+
+#ben1 img {
+    width: 250px;
+    height: 250px;
+}
+
+#ben2 h3 {
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+    color: darkgray;
+    text-transform: uppercase;
+    padding: 0 2em;
+}
+
+#ben2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#legenda {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#footer h3 {
+    color: white;
+    padding: .5em;
+}
+
+#footer p {
+    color: white;
+    font-size: 0.6em;
+}
+
+#footer span {
+    font-weight: 700;
+    color: darkgray;
+}
+
